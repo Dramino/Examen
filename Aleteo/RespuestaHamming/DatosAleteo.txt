@@ -1,0 +1,45 @@
+Archivo de entrada de datos para obtención de la respuesta ante aleteo con 8 derivadas aerodinámicas
+
+Propiedades dinámicas de la estructura
+rho =          1.25     [kg/m]     Densidad del viento
+m   =       5308.6815   [kg/m]     Masa modal a flexión.
+I0  =      50340.37     [kg-m2/m]  Momento másico de inercia.
+B   =         13.67     [m]        Ancho del puente.
+wh  =          1.33     [rad/s]    Frecuencia angular dirección vertical.
+wt  =         13.62     [rad/s]    Frecuencia angular a torsión.
+wa  =          1.66     [rad/s]    Frecuencia del aleteo (o frecuencia en la dirección del flujo).
+ch  =          0.030               Amortiguamiento crítico dirección Z.
+Cm  =          0.030               Amortiguamiento crítico a torsión.
+
+Derivadas aerodinámicas
+H1* = -1.0000
+H2* = -0.4000
+H3* = -0.8000
+H4* =  0.25
+A1* =  0.3000
+A2* = -0.1500
+A3* =  0.2000
+A4* =  0.007
+
+Coeficientes aerodinámicos
+Cd  = 2.0000                      Coeficiente de arrastre
+Cl  = 0.6500                      Coeficiente de levante
+Cm  = 0.2100                      Coeficiente de momento
+dCl = 6.2070                      Derivada del coeficiente de levante
+dCm = 0.2387                      Derivada del coeficiente de momento
+
+V   =  51.51                    Velocidad media
+
+Datos para la simulación
+
+Valores iniciales
+
+h  = 0.0        [m]             Desplazamiento inicial
+a  = 0.0        [rad]           Rotación inicial
+dh = 0.0        [m/s]           Velocidad inicial
+da = 0.0        [rad/s]         Velocidad rotacional inicial
+
+Simulación
+
+t  = 600           [s]           Tiempo total de integración
+dh = 120             [s]           Intervalos de tiempo de la simulación del viento turbulento (este dato indica a que intervalo se hizo la simulación de velocidad u y w)

@@ -1,0 +1,4 @@
+Datos del registro
+
+ti = 0       Tiempo inicial
+tf = 600     Tiempo final

@@ -1,0 +1,19 @@
+Archivo de entrada de datos para obtención de velocidad crítica de Flutter
+
+Propiedades dinámicas de la estructura
+m   =  10000.00 [kg/m]    Masa modal a flexión.
+I0  = 600000.00 [kg-m2/m] Momento másico de inercia.
+B   =     20.00 [m]       Ancho del puente.
+wh  =      0.8  [rad/s]   Frecuencia angular dirección vertical.
+wt  =      1.6  [rad/s]   Frecuencia angular a torsión.
+ch  =      0.005          Amortiguamiento crítico dirección Z.
+Cm  =      0.005          Amortiguamiento crítico a torsión.
+
+Matrices
+Longitud de tramo
+1 1 1 1 1
+Formas modales
+Vertical
+1.0	0.8	0.6	0.4	0.2
+Horizontal
+1.0	0.8	0.6	0.4	0.2

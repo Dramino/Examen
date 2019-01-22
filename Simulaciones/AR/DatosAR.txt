@@ -1,0 +1,20 @@
+﻿Archivo de entrada de datos para obtención de simulaciones
+
+Propiedades dinámicas de la estructura
+
+v   =         50    [m/s]       Velocidad media del viento.
+h   =         40   [m]         Altura deseada
+z0  =         0.05  [m]         Rugosidad del terreno    
+
+Datos para la simulación
+
+t  = 600         [s]              Tiempo total de integración
+dh = 120         [s]              Intervalos de tiempo
+dx = 1           [m]              Separación de tramos
+ns = 5                            Número de simulaciones
+
+
+coherencia  = 1                   Revisa si hay coherencia {1 : con coherencia / 0 : Sin coherencia}
+graficar    = 1                   Revisa si hay que graficar {1 : graficar / 0 no graficar}
+exportar    = 1                   Revisa si se crea un .txt {1 : exportar / 0 no exportar}
+nodo        = 4                   Nodo que se desea exportar o graficar
